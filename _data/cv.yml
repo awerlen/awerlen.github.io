@@ -1,0 +1,50 @@
+education:
+  - degree: "PhD in Astrophysics"
+    institution: "Ludwig Maximilian University of Munich"
+    dates: "10/2025 – now"
+    advisors: "Prof. Kevin Heng & Dr. Meng Tian"
+
+  - degree: "MSc in Physics"
+    institution: "ETH Zurich"
+    dates: "09/2023 – 06/2025"
+    advisors: "Prof. Caroline Dorn & Dr. Simon Grimm"
+
+  - degree: "BSc in Physics & Astronomy"
+    institution: "University of Bern"
+    dates: "09/2020 – 08/2023"
+    advisors: "Prof. Christoph Mordasini & Marit Mol Lous"
+
+experience:
+  - title: "Research Assistant (full time)"
+    institution: "ETH Zurich"
+    dates: "06/2025 – 09/2025"
+    advisor: "Prof. Caroline Dorn"
+
+  - title: "Visiting Researcher (full time)"
+    institution: "University of California, Los Angeles"
+    dates: "02/2025 – 05/2025 | 07/2025 – 09/2025"
+    advisors: "Prof. Edward D. Young & Prof. Hilke E. Schlichting"
+
+  - title: "Research Assistant (part-time)"
+    institution: "University of Bern"
+    dates: "01/2023 – 06/2025"
+    advisor: "Prof. Thomas Schildknecht"
+
+  - title: "Research Intern (full-time)"
+    institution: "Laboratoire d'Astrophysique de Marseille"
+    dates: "09/2024 – 10/2024"
+    advisor: "Prof. Olivier Mousis"
+
+  - title: "Observer (part-time)"
+    institution: "Zimmerwald Observatory"
+    dates: "05/2022 – 12/2024"
+    advisors: "Prof. Thomas Schildknecht & Prof. Lucia Kleint"
+
+service:
+  - role: "President"
+    organization: "Student Council for Physics and Astronomy (University of Bern)"
+    dates: "11/2021 – 06/2023"
+
+  - role: "Mentor"
+    organization: "Open Lecture Hall project (Student Body of the University of Bern)"
+    dates: "02/2020 – 12/2020"

@@ -1,0 +1,8 @@
+/* Center navigation menu */
+.greedy-nav {
+  justify-content: center;
+}
+
+.greedy-nav .visible-links {
+  margin: 0 auto;
+}

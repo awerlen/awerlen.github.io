@@ -1,21 +1,23 @@
 ---
-title: "Talks"
-permalink: /talks/
+title: "Outreach"
+permalink: /outreach/
 layout: single
 author_profile: true
 ---
 
-<div class="talks-list">
-  {% for post in site.talks reversed %}
+<div class="outreach-list">
+  {% for post in site.outreach reversed %}
       {% if post.link %}
         <b><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></b>
+      {% elsif post.file %}
+        <b><a href="{{ post.file }}" target="_blank">{{ post.title }}</a></b>
       {% else %}
         <b>{{ post.title }}</b>
       {% endif %}
       <br>
       
       {{ post.date | date: "%B %Y" }}<br/> 
-      {{ post.type }}, {{ post.event }}, {{ post.location }}
+      <em>{{ post.summary }}</em>
     <br/><br/>
   {% endfor %}
 </div>

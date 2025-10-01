@@ -1,36 +1,34 @@
 ---
-layout: archive
 title: "Publications"
 permalink: /publications/
+layout: single
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div class="pubs-list">
+  <ol>
+  {% for pub in site.publications reversed %}
+    <li>
+    <div class="pub-item">
+      {% comment %} --- AUTHORS first, APA style --- {% endcomment %}
+      {{ pub.authors }} ({{ pub.date | date: "%Y" }}).  
 
-{% include base_path %}
+      {{ pub.title }}.
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
+      {% if pub.journal %}
+        <em>{{ pub.journal }}</em>.
       {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+      {% if pub.volume %}
+        <b>{{ pub.volume }}</b>.
+      {% endif %}
+      {% if pub.page %}
+        {{ pub.page }}.
+      {% endif %}
+      {% if pub.doi %}
+        <a href="https://doi.org/{{ pub.doi }}" target="_blank">https://doi.org/{{ pub.doi }}</a>
+      {% endif %}
+    </div>
+  </li>
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+</ol>
+</div>

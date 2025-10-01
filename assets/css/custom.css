@@ -1,0 +1,15 @@
+/* Force nav bar to center the links */
+.greedy-nav {
+  display: flex;
+  justify-content: center;   /* center all nav items */
+}
+
+.greedy-nav .site-title {
+  display: none;  /* hide the site title in the nav bar if it pushes things left */
+}
+
+.greedy-nav .visible-links {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
