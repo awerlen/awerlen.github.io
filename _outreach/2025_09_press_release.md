@@ -1,5 +1,5 @@
 ---
-title: "Press Release: Exoplanets are not water worlds "
+title: "Exoplanets are not water worlds "
 date: 2025-09-18
 link: "https://ethz.ch/en/news-and-events/eth-news/news/2025/09/exoplanets-are-not-water-worlds.html"
 # OR use file instead of link
