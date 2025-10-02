@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Doctoral Researcher in astrophysics at the Ludwig Maximilian University of Munich and the Munich Center for Geoastronomy.
+I am a PhD Student in astrophysics at the Ludwig Maximilian University of Munich and the Munich Center for Geoastronomy.
 
 My research focuses on the interactions between planetary interiors and atmospheres, aiming to understand their composition and evolution. In particular, I study how interior–atmosphere exchange governs planetary habitability and shapes the diversity of planetary environments beyond the Solar System.
 
