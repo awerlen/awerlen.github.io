@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 601.48 601.19">
+  <!-- Generator: Adobe Illustrator 29.8.2, SVG Export Plug-In . SVG Version: 2.1.1 Build 3)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#linear-gradient2);
+      }
+
+      .st1 {
+        fill: url(#linear-gradient1);
+      }
+
+      .st2 {
+        fill: url(#linear-gradient);
+      }
+
+      .st3, .st4 {
+        isolation: isolate;
+      }
+
+      .st5 {
+        fill-opacity: .09;
+        fill-rule: evenodd;
+      }
+
+      .st4 {
+        fill: #fff;
+        font-family: Helvetica-Bold, Helvetica;
+        font-size: 700px;
+        font-weight: 700;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-117.84" y1="673.93" x2="-118.84" y2="674.52" gradientTransform="translate(7149.78 411003.79) rotate(9) scale(600.06 -600.06)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#409fff"/>
+      <stop offset="1" stop-color="#2157cf"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient1" x1="-117.84" y1="673.93" x2="-118.84" y2="674.52" gradientTransform="translate(7149.78 411003.79) rotate(9) scale(600.06 -600.06)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#409fff"/>
+      <stop offset="1" stop-color="#2157cf"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient2" x1="-117.96" y1="673.97" x2="-118.96" y2="674.56" gradientTransform="translate(6292.76 356237.41) rotate(9) scale(520 -520)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#001cff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#5aeaff" stop-opacity=".2"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <circle class="st2" cx="300.07" cy="300.07" r="300.03"/>
+    <circle class="st1" cx="300.07" cy="300.07" r="300.03"/>
+    <circle class="st0" cx="300.08" cy="300.03" r="260"/>
+  </g>
+  <g class="st3">
+    <text class="st4" transform="translate(107.91 479.6)"><tspan x="0" y="0">a</tspan></text>
+  </g>
+  <path class="st5" d="M318.86,326.69c93.3-72.9,195.51-237.99,195.51-237.99,0,0,89.5,107.48,87.05,217.72-2.42,108.93-74.03,203.03-131.43,241.84-57.4,38.81-161.21,65.78-237.78,46.62-118.31-29.61-182.9-130.34-182.9-130.34,0,0,176.24-64.95,269.54-137.84h0Z"/>
+</svg>

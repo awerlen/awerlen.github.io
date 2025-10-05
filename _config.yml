@@ -31,10 +31,11 @@ author:
   uri              : # URL
   email            : "aaron.werlen@lmu.de" 
 
+
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=VbckQWgAAAAJ&hl=en"
+  googlescholar    : #"https://scholar.google.com/citations?user=VbckQWgAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "http://orcid.org/0009-0005-1133-7586"
@@ -42,6 +43,8 @@ author:
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
+  ads              : "https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=%20author%3A%22Werlen%2C%20A.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0"
+
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site

@@ -47,6 +47,17 @@
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw icon-pad-right"></i>Google Scholar</a></li>
       {% endif %}
+      {% if author.ads %}
+        <li>
+          <a href="{{ author.ads }}" target="_blank"
+            style=""
+            onmouseover="this.querySelector('span').style.textDecoration='underline'"
+            onmouseout="this.querySelector('span').style.textDecoration='none'">
+            <img src="{{ '/assets/images/nasa_ads_2.svg' | relative_url }}" alt="NASA ADS" style="height:14px; width:auto; margin-right:6px;">
+            <span>NASA ADS</span>
+          </a>
+        </li>
+      {% endif %}
       {% if author.semantic %}
         <li><a href="{{ author.semantic }}"><i class="ai ai-semantic-scholar ai-fw icon-pad-right"></i>Semantic Scholar</a></li>
       {% endif %}
