@@ -14,3 +14,5 @@ end
 
 gem 'connection_pool', '2.5.0'
 gem "jekyll-scholar", git: "https://github.com/inukshuk/jekyll-scholar"
+
+gem "jekyll-github-metadata", "~> 2.16"

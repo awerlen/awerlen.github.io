@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : #"Aaron Werlen"
+title                    : " "
 title_separator          : "-"
 name                     : #&name "Aaron Werlen"
 description              : &description "Doctoral Researcher in Astrophysics"
@@ -319,6 +319,7 @@ plugins:
   - jekyll-redirect-from
   - jemoji
   - jekyll-scholar   # 👈 add this
+  - jekyll-github-metadata
   
 scholar:
   style: apa
