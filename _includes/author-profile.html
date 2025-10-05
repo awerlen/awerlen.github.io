@@ -50,10 +50,9 @@
       {% if author.ads %}
         <li>
           <a href="{{ author.ads }}" target="_blank"
-            style=""
             onmouseover="this.querySelector('span').style.textDecoration='underline'"
             onmouseout="this.querySelector('span').style.textDecoration='none'">
-            <img src="{{ '/assets/images/nasa_ads_2.svg' | relative_url }}" alt="NASA ADS" style="height:14px; width:auto; margin-right:6px;">
+            <img src="{{ '/assets/images/nasa_ads_2.svg'|relative_url}}" style="height:14px; width:auto; margin-right:6px;">
             <span>NASA ADS</span>
           </a>
         </li>
