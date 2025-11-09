@@ -5,19 +5,17 @@ layout: single
 author_profile: true
 ---
 
+
 <div class="outreach-list">
   {% for post in site.outreach reversed %}
+      {{ post.date | date: "%B %Y" }}, {{ post.organization }}
       {% if post.link %}
-        <b><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></b>
+        <a href="{{ post.link }}" target="_blank">{{ post.summary }}</a>
       {% elsif post.file %}
-        <b><a href="{{ post.file }}" target="_blank">{{ post.title }}</a></b>
+        <a href="{{ post.file }}" target="_blank">{{ post.summary }}</a>
       {% else %}
-        <b>{{ post.title }}</b>
+        {{ post.summary }}
       {% endif %}
-      <br>
-      
-      {{ post.date | date: "%B %Y" }}<br/> 
-      <em>{{ post.summary }}</em>
     <br/><br/>
   {% endfor %}
 </div>
