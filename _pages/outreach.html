@@ -8,7 +8,7 @@ author_profile: true
 
 <div class="outreach-list">
   {% for post in site.outreach reversed %}
-      {{ post.date | date: "%B %Y" }}, {{ post.organization }}
+      {{ post.date | date: "%b %Y" }}, <b>{{ post.organization }}</b><br>
       {% if post.link %}
         <a href="{{ post.link }}" target="_blank">{{ post.summary }}</a>
       {% elsif post.file %}
