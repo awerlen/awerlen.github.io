@@ -6,5 +6,5 @@ organization: "Walliser Bote"
 # OR use file instead of link
 file: "/outreach/files/2025_04_pomona_interview.pdf"
 #summary: "The local newspaper Walliser Bote published an interview with me as part of a series on young people from the canton of Wallis. I discussed my motivations for studying astrophysics, my fascination with the search for life beyond Earth, and the driving questions behind my current research."
-summary: "Interview on my scientific background and research"
+summary: "Interview on my scientific background and research."
 ---
