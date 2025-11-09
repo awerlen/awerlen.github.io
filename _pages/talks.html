@@ -8,14 +8,11 @@ author_profile: true
 <div class="talks-list">
   {% for post in site.talks reversed %}
       {% if post.link %}
-        <b><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></b>
+        <b><a href="{{ post.link }}" target="_blank">{{ post.date | date: "%B %Y" }} {{ post.type }}, {{ post.event }}, {{ post.location }}</a></b>
       {% else %}
-        <b>{{ post.title }}</b>
+        <b>{{ post.date | date: "%B %Y" }}{{ post.type }}, {{ post.event }}, {{ post.location }}</b>
       {% endif %}
       <br>
-      
-      {{ post.date | date: "%B %Y" }}<br/> 
-      {{ post.type }}, {{ post.event }}, {{ post.location }}
-    <br/><br/>
+          <br/><br/>
   {% endfor %}
 </div>
