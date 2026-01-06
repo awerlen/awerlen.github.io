@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD Candidate in Astrophysics at the Ludwig Maximilian University of Munich.
+I am a PhD Student in Astrophysics at the Ludwig Maximilian University of Munich.
 
 My research combines thermodynamics and numerical modelling to study how volatile species partition between a planet’s interior and its atmosphere. These interactions govern the chemical evolution of planets during their magma-ocean stages and provide the foundation for distinguishing abiotic chemical fingerprints from those that could arise from life.
 
