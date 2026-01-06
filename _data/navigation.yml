@@ -21,8 +21,8 @@ main:
   - title: "Media & Outreach"
     url: /outreach/        # 👈 new     
     
-  - title: "CV"
-    url: /cv/
+  #- title: "CV"
+  #  url: /cv/
 
 
     
