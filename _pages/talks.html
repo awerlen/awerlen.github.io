@@ -10,7 +10,8 @@ author_profile: true
       {% if post.link %}
         <a href="{{ post.link }}" target="_blank">{{ post.date | date: "%b %Y" }} <b>{{ post.type }}</b> {{ post.event }}, {{ post.location }}</a>
       {% else %}
-        {{ post.date | date: "%b %Y" }}, <b>{{ post.type }}</b>, {{ post.event }}, {{ post.location }}
+        {{ post.date | date: "%b %Y" }}, <b>{{ post.type }}</b>, {{ post.event }}, {{ post.location }}</br>
+        <i>{{ post.title }}</i>
       {% endif %}
       <br><br>
   {% endfor %}

@@ -1,5 +1,5 @@
 ---
-title: "Hycean or Hype? Rethinking the Origins of Water-Rich Worlds"
+title: "Endogenic Water Production and Its Influence on Atmospheric Composition in Sub-Neptunes Using Global Equilibrium Chemistry"
 collection: talks
 type: "Conference Talk"
 permalink: #/talks/2012-03-01-talk-1
