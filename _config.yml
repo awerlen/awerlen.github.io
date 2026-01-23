@@ -11,8 +11,8 @@ locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
 title                    : " "
 title_separator          : "-"
-name                     : #&name "Aaron Werlen"
-description              : &description "PhD Student in Astropyhsics"
+name                     : &name "Aaron Werlen"
+description              : &description "Astrophysicist"
 url                      : https://awerlen.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "awerlen/awerlen.github.io"
@@ -26,10 +26,10 @@ author:
   name             : "Aaron Werlen"
   pronouns         : # example: "she/her"  
   bio              : #"PhD Student in Astropyhsics"
-  location         : #"Munich, Germany"
-  employer         : #"Ludwig Maximilian University"
+  location         : "Zürich, Switzerland"
+  employer         : "ETH Zürich"
   uri              : # URL
-  email            : "aaron.werlen@lmu.de" 
+  email            : "awerlen@ethz.ch" 
 
 
   # Academic websites

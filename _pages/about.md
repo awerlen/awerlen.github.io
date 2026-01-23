@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD Student in Astrophysics at the Ludwig Maximilian University of Munich.
+I am a physicist with an MSc in Physics from ETH Zürich, currently working in the Exoplanet Interiors Group led by Prof. Caroline Dorn at ETH Zürich.
 
 My research combines thermodynamics and numerical modelling to study how volatile species partition between a planet’s interior and its atmosphere. These interactions govern the chemical evolution of planets during their magma-ocean stages and provide the foundation for distinguishing abiotic chemical fingerprints from those that could arise from life.
-
-Before beginning my PhD, I completed an MSc in Physics at ETH Zurich, where I studied the coupling between hydrogen-rich atmospheres and deep magma oceans in sub-Neptunes and super-Earths. My research combined global chemical equilibrium models with thermodynamic data to understand how interior processes shape atmospheric composition. I also hold a BSc in Physics and Astronomy from the University of Bern.
