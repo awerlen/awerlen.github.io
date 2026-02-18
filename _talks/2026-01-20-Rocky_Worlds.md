@@ -5,5 +5,5 @@ type: "Contributed Talk"
 permalink: #/talks/2012-03-01-talk-1
 event: "Rocky Worlds IV"
 date: 2026-01-20
-location: "Groningen"
+location: "Groningen, Netherlands"
 ---
