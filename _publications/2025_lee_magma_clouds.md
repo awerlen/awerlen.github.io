@@ -2,6 +2,7 @@
 title: "Mineral Cloud Formation Above Magma Oceans in Sub-Neptune Atmospheres"
 collection: publications
 date: 2025-09-02
+first_author: false
 authors: "Lee E. K. H., Werlen A., & Dorn C."
 journal: "The Astrophysical Journal Letters"
 volume: "990"

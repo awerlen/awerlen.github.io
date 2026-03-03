@@ -2,6 +2,7 @@
 title: "Differentiation, the Exception Not the Rule: Evidence for Full Miscibility in Sub-Neptune Interiors"
 collection: publications
 date: 2025-11-04
+first_author: false
 authors: "Young E. D., Werlen A., Marcum S. P., Stixrude L. & Dullemond C. P."
 journal: "The Planetary Science Journal"
 volume: "6"

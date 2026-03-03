@@ -6,12 +6,14 @@ author_profile: true
 ---
 
 <div class="pubs-list">
+  <h2>First-Author Papers</h2>
   <ol>
-  {% for pub in site.publications reversed %}
+  {% assign first_author_pubs = site.publications | where: "first_author", true | sort: "date" %}
+  {% for pub in first_author_pubs reversed %}
     <li>
     <div class="pub-item">
       {% comment %} --- AUTHORS first, APA style --- {% endcomment %}
-      {{ pub.authors }} ({{ pub.date | date: "%Y" }}).  
+      {{ pub.authors }} ({{ pub.date | date: "%Y" }}).
 
       {{ pub.title }}.
 
@@ -30,5 +32,35 @@ author_profile: true
     </div>
   </li>
   {% endfor %}
-</ol>
+  </ol>
+</div>
+
+<div class="pubs-list">
+  <h2>Co-Authorships</h2>
+  <ol>
+  {% assign coauthor_pubs = site.publications | where_exp: "pub", "pub.first_author != true" | sort: "date" %}
+  {% for pub in coauthor_pubs reversed %}
+    <li>
+    <div class="pub-item">
+      {% comment %} --- AUTHORS first, APA style --- {% endcomment %}
+      {{ pub.authors }} ({{ pub.date | date: "%Y" }}).
+
+      {{ pub.title }}.
+
+      {% if pub.journal %}
+        <em>{{ pub.journal }}</em>.
+      {% endif %}
+      {% if pub.volume %}
+        <b>{{ pub.volume }}</b>.
+      {% endif %}
+      {% if pub.page %}
+        {{ pub.page }}.
+      {% endif %}
+      {% if pub.doi %}
+        <a href="https://doi.org/{{ pub.doi }}" target="_blank">https://doi.org/{{ pub.doi }}</a>
+      {% endif %}
+    </div>
+  </li>
+  {% endfor %}
+  </ol>
 </div>

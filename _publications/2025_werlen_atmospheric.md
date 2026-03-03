@@ -2,6 +2,7 @@
 title: "Atmospheric C/O Ratios of Sub-Neptunes with Magma Oceans: Homemade Rather Than Inherited"
 collection: publications
 date: 2025-07-28
+first_author: true
 authors: "Werlen A., Dorn C., Schlichting H. E., Grimm S. L., & Young E. D."
 journal: "The Astrophysical Journal Letters"
 volume: "988"
