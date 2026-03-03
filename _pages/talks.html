@@ -3,10 +3,11 @@ title: "Talks"
 permalink: /talks/
 layout: single
 author_profile: true
+hide_title: true
 ---
 
 <div class="talks-list">
-  <h2>Conferences</h2>
+  <h3>Conferences</h3>
   {% assign conference_talks = site.talks | where: "talk_category", "conference" | sort: "date" %}
   {% for post in conference_talks reversed %}
       {% if post.link %}
@@ -20,7 +21,7 @@ author_profile: true
 </div>
 
 <div class="talks-list">
-  <h2>Invited Seminars & Talks</h2>
+  <h3>Invited Seminars & Talks</h3>
   {% assign invited_talks = site.talks | where: "talk_category", "invited" | sort: "date" %}
   {% for post in invited_talks reversed %}
       {% if post.link %}
