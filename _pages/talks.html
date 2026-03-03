@@ -21,7 +21,7 @@ hide_title: true
 </div>
 
 <div class="talks-list">
-  <h2>Invited Siminars & TAlks</h2>
+  <h2>Invited Seminars & Talks</h2>
   {% assign invited_talks = site.talks | where: "talk_category", "invited" | sort: "date" %}
   {% for post in invited_talks reversed %}
       {% if post.link %}
