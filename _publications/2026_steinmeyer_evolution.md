@@ -3,7 +3,7 @@ title: "Coupled thermal-chemical evolution models of sub-Neptunes reveal atmosph
 collection: publications
 date: 2026-03-02
 first_author: false
-authors: "Steinmeyer M. L., Dorn C., Werlen A. & Grimm S. L."
+authors: "Steinmeyer M. L., Dorn C., Werlen A., & Grimm S. L."
 journal: "in press at ApJ"
 doi: "10.48550/arXiv.2601.21377"
 ---
