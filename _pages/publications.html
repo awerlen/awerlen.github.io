@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <div class="pubs-list">
-  <h2>First-author publications</h2>
+  <h3>First-author publications</h3>
   <ol>
   {% assign first_author_pubs = site.publications | where: "first_author", true | sort: "date" %}
   {% for pub in first_author_pubs reversed %}
@@ -36,7 +36,7 @@ author_profile: true
 </div>
 
 <div class="pubs-list">
-  <h2>Co-authored publications</h2>
+  <h3>Co-authored publications</h3>
   <ol>
   {% assign coauthor_pubs = site.publications | where_exp: "pub", "pub.first_author != true" | sort: "date" %}
   {% for pub in coauthor_pubs reversed %}
