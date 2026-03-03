@@ -6,7 +6,23 @@ author_profile: true
 ---
 
 <div class="talks-list">
-  {% for post in site.talks reversed %}
+  <h2>Conferences</h2>
+  {% assign conference_talks = site.talks | where: "talk_category", "conference" | sort: "date" %}
+  {% for post in conference_talks reversed %}
+      {% if post.link %}
+        <a href="{{ post.link }}" target="_blank">{{ post.date | date: "%b %Y" }} <b>{{ post.type }}</b> {{ post.event }}, {{ post.location }}</a>
+      {% else %}
+        {{ post.date | date: "%b %Y" }}, <b>{{ post.type }}</b>, {{ post.event }}, {{ post.location }}</br>
+        <i>{{ post.title }}</i>
+      {% endif %}
+      <br><br>
+  {% endfor %}
+</div>
+
+<div class="talks-list">
+  <h2>Invited Seminars & Talks</h2>
+  {% assign invited_talks = site.talks | where: "talk_category", "invited" | sort: "date" %}
+  {% for post in invited_talks reversed %}
       {% if post.link %}
         <a href="{{ post.link }}" target="_blank">{{ post.date | date: "%b %Y" }} <b>{{ post.type }}</b> {{ post.event }}, {{ post.location }}</a>
       {% else %}
