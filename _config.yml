@@ -26,8 +26,8 @@ author:
   name             : "Aaron Werlen"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student in Planetary Science"
-  location         : "Zürich, Switzerland"
-  employer         : "University of California, Los Angeles"
+  location         : "Los Angeles, CA"
+  employer         : #"University of California, Los Angeles"
   uri              : # URL
   email            : "werlen@ucla.edu" 
 
