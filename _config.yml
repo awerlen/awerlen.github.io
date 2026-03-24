@@ -25,11 +25,11 @@ author:
   avatar           : "profile.png"
   name             : "Aaron Werlen"
   pronouns         : # example: "she/her"  
-  bio              : "Astrophysicist"
+  bio              : "PhD Student in Planetary Science"
   location         : "Zürich, Switzerland"
-  employer         : "ETH Zürich"
+  employer         : "University of California, Los Angeles"
   uri              : # URL
-  email            : "awerlen@ethz.ch" 
+  email            : "werlen@ucla.edu" 
 
 
   # Academic websites
