@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Planetary Science at the University of California, Los Angeles, working in the group of Prof. Edward D. Young. I previously completed an MSc in Physics at ETH Zürich and a BSc in Physics and Astronomy at the University of Bern.
+I am a PhD student in Planetary Science at the University of California, Los Angeles, working in Prof. Edward D. Young's group. I previously completed an MSc in Physics at ETH Zürich and a BSc in Physics and Astronomy at the University of Bern.
 
 My research focuses on the chemical evolution of super-Earths and sub-Neptunes from their earliest stages of formation through their subsequent evolution. In particular, I investigate how volatile elements such as hydrogen, carbon, nitrogen, and sulfur partition between a planet’s interior and its atmosphere during magma-ocean phases. These interactions play a central role in shaping atmospheric composition and determining the long-term evolution of planetary environments.
 
