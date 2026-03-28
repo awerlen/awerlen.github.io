@@ -9,18 +9,21 @@
 
 main:
 
-  - title: "About Me"
-    url: /about/
+  - title: "About"
+    url: /#about
+
+  - title: "Research"
+    url: /#research
 
   - title: "Publications"
-    url: /publications/
+    url: /#publications
 
-  - title: "Conferences & Talks"
-    url: /talks/     
+  - title: "Talks"
+    url: /#talks
 
-  - title: "Media & Outreach"
-    url: /outreach/        # 👈 new     
-    
+  - title: "Outreach"
+    url: /#outreach
+
   #- title: "CV"
   #  url: /cv/
 

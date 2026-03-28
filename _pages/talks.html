@@ -1,35 +1,48 @@
 ---
-title: "Talks"
+title: "Talks & Conferences"
 permalink: /talks/
 layout: single
-author_profile: true
+author_profile: false
 hide_title: true
+body_class: archive-page
 ---
 
-<div class="talks-list">
-  <h2>Conferences</h2>
-  {% assign conference_talks = site.talks | where: "talk_category", "conference" | sort: "date" %}
-  {% for post in conference_talks reversed %}
-      {% if post.link %}
-        <a href="{{ post.link }}" target="_blank">{{ post.date | date: "%b %Y" }} <b>{{ post.type }}</b> {{ post.event }}, {{ post.location }}</a>
-      {% else %}
-        {{ post.date | date: "%b %Y" }}, <b>{{ post.type }}</b>, {{ post.event }}, {{ post.location }}</br>
-        <i>{{ post.title }}</i>
-      {% endif %}
-      <br><br>
-  {% endfor %}
-</div>
+<section class="archive-shell">
+  <div class="archive-intro">
+    <p class="archive-intro__eyebrow">Archive</p>
+    <h1>Talks &amp; Conferences</h1>
+    <p>Conference presentations, invited seminars, and related speaking engagements.</p>
+  </div>
 
-<div class="talks-list">
-  <h2>Invited Seminars & Talks</h2>
-  {% assign invited_talks = site.talks | where: "talk_category", "invited" | sort: "date" %}
-  {% for post in invited_talks reversed %}
-      {% if post.link %}
-        <a href="{{ post.link }}" target="_blank">{{ post.date | date: "%b %Y" }} <b>{{ post.type }}</b> {{ post.event }}, {{ post.location }}</a>
-      {% else %}
-        {{ post.date | date: "%b %Y" }}, <b>{{ post.type }}</b>, {{ post.event }}, {{ post.location }}</br>
-        <i>{{ post.title }}</i>
-      {% endif %}
-      <br><br>
-  {% endfor %}
-</div>
+  <section class="archive-section">
+    <div class="talks-list">
+      <h2>Conferences</h2>
+      {% assign conference_talks = site.talks | where: "talk_category", "conference" | sort: "date" %}
+      {% for post in conference_talks reversed %}
+        <div class="talk-entry">
+          <p class="talk-entry__meta">{{ post.date | date: "%b %Y" }} · <b>{{ post.type }}</b> · {{ post.event }}, {{ post.location }}</p>
+          {% if post.link %}
+            <a class="talk-entry__link" href="{{ post.link }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
+          {% else %}
+            <p class="talk-entry__title"><i>{{ post.title }}</i></p>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="talks-list">
+      <h2>Invited seminars and talks</h2>
+      {% assign invited_talks = site.talks | where: "talk_category", "invited" | sort: "date" %}
+      {% for post in invited_talks reversed %}
+        <div class="talk-entry">
+          <p class="talk-entry__meta">{{ post.date | date: "%b %Y" }} · <b>{{ post.type }}</b> · {{ post.event }}, {{ post.location }}</p>
+          {% if post.link %}
+            <a class="talk-entry__link" href="{{ post.link }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
+          {% else %}
+            <p class="talk-entry__title"><i>{{ post.title }}</i></p>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+</section>

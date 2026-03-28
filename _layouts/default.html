@@ -11,7 +11,8 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
+  {% capture body_classes %}{% if page.body_class %}{{ page.body_class }}{% endif %}{% if page.url == "/" %}{% if page.body_class %} {% endif %}page-home{% endif %}{% endcapture %}
+  <body{% unless body_classes == "" %} class="{{ body_classes | strip }}"{% endunless %}>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
