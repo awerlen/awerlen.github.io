@@ -13,19 +13,18 @@ redirect_from:
     <p class="home-hero__eyebrow">Planetary Science PhD Student · UCLA</p>
     <h1>Planetary interiors, atmospheres, and volatile chemistry.</h1>
     <div id="research" class="home-hero__summary home-anchor-section">
-      <p class="home-hero__lead">I am a PhD student in Prof. Edward D. Young's group at UCLA, where I study the chemical evolution of super-Earths and sub-Neptunes from formation through early evolution.</p>
-      <p>My work focuses on how volatile elements such as hydrogen, carbon, nitrogen, and sulfur partition between magma-ocean interiors and planetary atmospheres, and how these exchanges shape atmospheric composition over time.</p>
-      <p>I develop thermodynamic and numerical models of interior-atmosphere equilibrium, combining them with planet formation theory and exoplanet observations to better understand the diversity of planetary interiors and atmospheres. I am especially interested in problems linking geochemistry, planetary formation, and atmospheric evolution, and I am always happy to discuss related collaborations.</p>
-    </div>
+      <p class="home-hero__lead">I am a PhD student working with Prof. Edward D. Young and Prof. Hilke E. Schlichting at UCLA, where I study the chemical evolution of super-Earths and sub-Neptunes.</p>
+      <p>My research focuses on the link between planetary interiors and atmospheres during the earliest stages of planetary evolution. Many of these planets likely passed through magma ocean phases, and in sub-Neptunes such conditions may persist for long periods of time. Under these extreme conditions, interiors and atmospheres are chemically coupled: they exchange material, evolve together, and can produce atmospheric compositions that differ fundamentally from those expected if the atmosphere were treated in isolation.</p>
+      <p>This problem has become especially timely with the rise of JWST, which is now beginning to place meaningful constraints on the atmospheres of super-Earths and sub-Neptunes. A central question is how to interpret those observations physically: what atmospheric compositions are set by formation, what is reshaped by interaction with the interior, and what this tells us about the origin and evolution of these planets.</p>
+      <p>To address this, I combine thermodynamics, planetary formation theory, and atmospheric modeling. My goal is to build physically grounded models that connect deep interior processes to observable atmospheric properties, and thereby to understand how the chemistry of a planet reflects its history.</p>
+
+  </div>
   </div>
   <aside class="home-hero__panel">
     <img src="{{ '/images/profile.png' | relative_url }}" alt="Portrait of Aaron Werlen" class="home-hero__portrait">
     <div class="home-hero__meta">
       <p class="home-hero__name">Aaron Werlen</p>
       <p>PhD Student in Planetary Science at the University of California, Los Angeles</p>
-      <ul class="home-hero__facts">
-        <li>Los Angeles, CA</li>
-      </ul>
       <div class="home-social-links" aria-label="Profile links">
         <a class="home-social-link" href="mailto:werlen@ucla.edu" aria-label="Email Aaron Werlen" title="Email">
           <i class="fas fa-envelope" aria-hidden="true"></i>
