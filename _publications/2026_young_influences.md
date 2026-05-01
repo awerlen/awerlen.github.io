@@ -7,7 +7,6 @@ preprint: true
 authors: "Young E. D. & Werlen A."
 journal: "arXiv"
 venue: "arXiv"
-page: "2604.28135"
 doi: "10.48550/arXiv.2604.28135"
 paperurl: "http://arxiv.org/abs/2604.28135"
 ---
