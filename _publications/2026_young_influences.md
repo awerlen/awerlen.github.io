@@ -4,9 +4,7 @@ collection: publications
 date: 2026-04-30
 first_author: false
 authors: "Young E. D. & Werlen A."
-journal: "arXiv"
-venue: "arXiv"
-page: "2604.28135"
+journal: "arXiv (pre-print)"
+venue: "arXiv (pre-print)"
 doi: "10.48550/arXiv.2604.28135"
-paperurl: "http://arxiv.org/abs/2604.28135"
 ---
