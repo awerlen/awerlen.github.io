@@ -82,7 +82,7 @@ redirect_from:
 
   <div class="pubs-list">
     <h3>First-author publications</h3>
-    {% assign first_author_pubs = site.publications | where: "first_author", true | sort: "date" %}
+    {% assign first_author_pubs = site.publications | where_exp: "pub", "pub.first_author == true and pub.preprint != true" | sort: "date" %}
     {% for pub in first_author_pubs reversed %}
       <div class="pub-entry">
         {% if pub.doi %}<a class="pub-entry__link" href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener noreferrer"><span class="pub-entry__citation">{{ pub.authors }} ({{ pub.date | date: "%Y" }}). {{ pub.title }}.{% if pub.journal %} <em>{{ pub.journal }}</em>.{% endif %}{% if pub.volume %} <b>{{ pub.volume }}</b>.{% endif %}{% if pub.page %} {{ pub.page }}.{% endif %}</span></a>{% else %}<span class="pub-entry__citation">{{ pub.authors }} ({{ pub.date | date: "%Y" }}). {{ pub.title }}.{% if pub.journal %} <em>{{ pub.journal }}</em>.{% endif %}{% if pub.volume %} <b>{{ pub.volume }}</b>.{% endif %}{% if pub.page %} {{ pub.page }}.{% endif %}</span>{% endif %}
@@ -92,8 +92,18 @@ redirect_from:
 
   <div class="pubs-list">
     <h3>Co-authored publications</h3>
-    {% assign coauthor_pubs = site.publications | where_exp: "pub", "pub.first_author != true" | sort: "date" %}
+    {% assign coauthor_pubs = site.publications | where_exp: "pub", "pub.first_author != true and pub.preprint != true" | sort: "date" %}
     {% for pub in coauthor_pubs reversed %}
+      <div class="pub-entry">
+        {% if pub.doi %}<a class="pub-entry__link" href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener noreferrer"><span class="pub-entry__citation">{{ pub.authors }} ({{ pub.date | date: "%Y" }}). {{ pub.title }}.{% if pub.journal %} <em>{{ pub.journal }}</em>.{% endif %}{% if pub.volume %} <b>{{ pub.volume }}</b>.{% endif %}{% if pub.page %} {{ pub.page }}.{% endif %}</span></a>{% else %}<span class="pub-entry__citation">{{ pub.authors }} ({{ pub.date | date: "%Y" }}). {{ pub.title }}.{% if pub.journal %} <em>{{ pub.journal }}</em>.{% endif %}{% if pub.volume %} <b>{{ pub.volume }}</b>.{% endif %}{% if pub.page %} {{ pub.page }}.{% endif %}</span>{% endif %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="pubs-list">
+    <h3>Pre-prints</h3>
+    {% assign preprint_pubs = site.publications | where: "preprint", true | sort: "date" %}
+    {% for pub in preprint_pubs reversed %}
       <div class="pub-entry">
         {% if pub.doi %}<a class="pub-entry__link" href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener noreferrer"><span class="pub-entry__citation">{{ pub.authors }} ({{ pub.date | date: "%Y" }}). {{ pub.title }}.{% if pub.journal %} <em>{{ pub.journal }}</em>.{% endif %}{% if pub.volume %} <b>{{ pub.volume }}</b>.{% endif %}{% if pub.page %} {{ pub.page }}.{% endif %}</span></a>{% else %}<span class="pub-entry__citation">{{ pub.authors }} ({{ pub.date | date: "%Y" }}). {{ pub.title }}.{% if pub.journal %} <em>{{ pub.journal }}</em>.{% endif %}{% if pub.volume %} <b>{{ pub.volume }}</b>.{% endif %}{% if pub.page %} {{ pub.page }}.{% endif %}</span>{% endif %}
       </div>
