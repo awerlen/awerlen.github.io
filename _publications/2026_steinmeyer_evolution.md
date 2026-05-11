@@ -1,5 +1,5 @@
 ---
-title: "Coupled thermal-chemical evolution models of sub-Neptunes reveal atmospheric signatures of their formation location"
+title: "Coupled Thermal–Chemical Evolution Models of Sub-Neptunes Reveal Atmospheric Signatures of Their Formation Location"
 collection: publications
 date: 2026-04-02
 first_author: false
