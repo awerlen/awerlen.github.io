@@ -55,7 +55,7 @@ redirect_from:
       </div>
     </div>
     <div class="home-timeline__item">
-      <span class="home-timeline__date">MSc</span>
+      <span class="home-timeline__date">2023-2025</span>
       <div>
         <h3>ETH Zurich</h3>
         <p>MSc in Physics</p>
@@ -64,7 +64,7 @@ redirect_from:
       </div>
     </div>
     <div class="home-timeline__item">
-      <span class="home-timeline__date">BSc</span>
+      <span class="home-timeline__date">2020-2023</span>
       <div>
         <h3>University of Bern</h3>
         <p>BSc in Physics &amp; Astronomy</p>
