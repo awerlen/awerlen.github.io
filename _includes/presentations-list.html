@@ -19,23 +19,14 @@
     {% endcase %}
 
     {% for post in posts %}
-      {% assign badge_label = post.presentation_type | default: "talk" | capitalize %}
       <div class="talk-entry">
-        <div class="talk-entry__header">
-          <span class="talk-entry__badge">{{ badge_label }}</span>
-          <span class="talk-entry__date">{{ post.date | date: "%b %Y" }}</span>
-        </div>
-
         {% if post.link %}
           <a class="talk-entry__link" href="{{ post.link }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
         {% else %}
           <p class="talk-entry__title"><i>{{ post.title }}</i></p>
         {% endif %}
 
-        <p class="talk-entry__meta">{{ post.event }}{% if post.location %} · {{ post.location }}{% endif %}</p>
-        {% if post.type %}
-          <p class="talk-entry__detail">{{ post.type }}</p>
-        {% endif %}
+        <p class="talk-entry__meta">{{ post.date | date: "%b %Y" }} · {{ post.event }}{% if post.location %} · {{ post.location }}{% endif %}</p>
       </div>
     {% endfor %}
   </div>
