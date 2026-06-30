@@ -117,38 +117,10 @@ redirect_from:
 
 <section id="talks" class="home-section home-anchor-section">
   <div class="home-section__intro">
-    <h2>Talks &amp; Conferences</h2>
+    <h2>Presentations</h2>
   </div>
 
-  <div class="talks-list">
-    <h3>Conferences</h3>
-    {% assign conference_talks = site.talks | where: "talk_category", "conference" | sort: "date" %}
-    {% for post in conference_talks reversed %}
-      <div class="talk-entry">
-        <p class="talk-entry__meta">{{ post.date | date: "%b %Y" }} · <b>{{ post.type }}</b> · {{ post.event }}, {{ post.location }}</p>
-        {% if post.link %}
-          <a class="talk-entry__link" href="{{ post.link }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
-        {% else %}
-          <p class="talk-entry__title"><i>{{ post.title }}</i></p>
-        {% endif %}
-      </div>
-    {% endfor %}
-  </div>
-
-  <div class="talks-list">
-    <h3>Invited seminars and talks</h3>
-    {% assign invited_talks = site.talks | where: "talk_category", "invited" | sort: "date" %}
-    {% for post in invited_talks reversed %}
-      <div class="talk-entry">
-        <p class="talk-entry__meta">{{ post.date | date: "%b %Y" }} · <b>{{ post.type }}</b> · {{ post.event }}, {{ post.location }}</p>
-        {% if post.link %}
-          <a class="talk-entry__link" href="{{ post.link }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
-        {% else %}
-          <p class="talk-entry__title"><i>{{ post.title }}</i></p>
-        {% endif %}
-      </div>
-    {% endfor %}
-  </div>
+  {% include presentations-list.html %}
 </section>
 
 <section id="outreach" class="home-section home-anchor-section">
