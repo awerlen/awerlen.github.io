@@ -26,7 +26,7 @@
           <p class="talk-entry__title"><i>{{ post.title }}</i></p>
         {% endif %}
 
-        {% if post.talk_category == "invited" and post.type and post.type != "Seminar" and post.type != "Talk" and post.type != "Talk (online)" %}
+        {% if post.talk_category == "invited" and post.type %}
           <p class="talk-entry__detail">{{ post.type }}</p>
         {% endif %}
 

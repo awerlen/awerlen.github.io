@@ -4,7 +4,6 @@ collection: talks
 type: "Contributed Poster"
 presentation_type: "poster"
 talk_category: "conference"
-permalink: #/talks/2012-03-01-talk-1
 event: "Annual Origins Science Week"
 date: 2025-12-05
 location: "Seeon, Germany"

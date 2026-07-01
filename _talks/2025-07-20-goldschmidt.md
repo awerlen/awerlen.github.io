@@ -4,7 +4,6 @@ collection: talks
 type: "Contributed Talk"
 presentation_type: "talk"
 talk_category: "conference"
-permalink: #/talks/2012-03-01-talk-1
 event: "Goldschmidt 2025"
 date: 2025-07-20
 location: "Prague, Czechia"
