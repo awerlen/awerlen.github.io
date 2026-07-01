@@ -577,6 +577,13 @@ a:focus {
   line-height: 1.4;
 }
 
+.page__content p.talk-entry__detail {
+  margin: 0 !important;
+  color: var(--aw-accent-deep);
+  font-size: 0.94rem;
+  line-height: 1.35;
+}
+
 .talk-entry__link {
   color: var(--aw-accent-deep);
   text-decoration: none;

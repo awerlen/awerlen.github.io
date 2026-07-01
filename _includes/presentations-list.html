@@ -26,6 +26,10 @@
           <p class="talk-entry__title"><i>{{ post.title }}</i></p>
         {% endif %}
 
+        {% if post.talk_category == "invited" and post.type and post.type != "Seminar" and post.type != "Talk" and post.type != "Talk (online)" %}
+          <p class="talk-entry__detail">{{ post.type }}</p>
+        {% endif %}
+
         <p class="talk-entry__meta">{{ post.date | date: "%b %Y" }} · {{ post.event }}{% if post.location %} · {{ post.location }}{% endif %}</p>
       </div>
     {% endfor %}
