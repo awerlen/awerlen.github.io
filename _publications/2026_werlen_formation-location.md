@@ -1,12 +1,11 @@
 ---
-title: "The Role of Formation Location in Shaping Sulfur-, Nitrogen-, and Carbon-Bearing Species in Super-Earth and Sub-Neptune Atmospheres"
+title: "The Role of Formation Location in Shaping Sulfur-, Nitrogen-, and Carbon-bearing Species in Super-Earth and Sub-Neptune Atmospheres"
 collection: publications
-date: 2026-05-27
+date: 2026-06-30
 first_author: true
-preprint: false
 authors: "Werlen A., Burn R., Dorn C., Felix L., & Salmi A."
-journal: "Accepted for publication in The Astrophysical Journal"
-venue: "arXiv"
-doi: "10.48550/arXiv.2605.15170"
-paperurl: "http://arxiv.org/abs/2605.15170"
+journal: "The Astrophysical Journal"
+volume: "1005"
+page: "124"
+doi: "10.3847/1538-4357/ae742f"
 ---

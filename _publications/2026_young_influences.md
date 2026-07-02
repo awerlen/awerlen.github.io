@@ -3,9 +3,9 @@ title: "The Influences of Hydrogen-Silicate-Iron Miscibility on the Demographics
 collection: publications
 date: 2026-04-30
 first_author: false
-preprint: true
+preprint: false
 authors: "Young E. D. & Werlen A."
-journal: "arXiv"
+journal: "Accepted for publication in The Astrophysical Journal"
 venue: "arXiv"
 doi: "10.48550/arXiv.2604.28135"
 paperurl: "http://arxiv.org/abs/2604.28135"
