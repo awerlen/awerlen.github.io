@@ -1,12 +1,13 @@
 ---
 title: "The Influences of Hydrogen-Silicate-Iron Miscibility on the Demographics of Sub-Neptunes and Super-Earths"
 collection: publications
-date: 2026-04-30
+date: 2026-07-24
 first_author: false
 preprint: false
 authors: "Young E. D. & Werlen A."
-journal: "Accepted for publication in The Astrophysical Journal"
-venue: "arXiv"
-doi: "10.48550/arXiv.2604.28135"
-paperurl: "http://arxiv.org/abs/2604.28135"
+journal: "The Astrophysical Journal"
+volume: "1006"
+number: "2"
+page: "182"
+doi: "10.3847/1538-4357/ae83a7"
 ---
