@@ -1,7 +1,7 @@
 ---
 title: "Ice Giants Revisited: Uranus and Neptune as Magma Ocean Worlds"
 collection: publications
-date: 2026-06-16
+date: 2026-09-09
 first_author: false
 preprint: false
 authors: "Young E. D., Marcum S. P., Werlen A., & Wulff P. N."
