@@ -13,7 +13,7 @@ redirect_from:
     <p class="home-hero__eyebrow">Planetary Science PhD Student · UCLA</p>
     <h1>Planetary interiors, atmospheres, and volatile chemistry.</h1>
     <div id="research" class="home-hero__summary home-anchor-section">
-      <p class="home-hero__lead">I am a PhD student working with Prof. Edward D. Young and Prof. Hilke E. Schlichting at UCLA, where I study the chemical evolution of super-Earths and sub-Neptunes.</p>
+      <p class="home-hero__lead">I am a PhD student working with Prof. Edward D. Young, where I study the chemical evolution of super-Earths and sub-Neptunes.</p>
       <p>My research focuses on the link between planetary interiors and atmospheres during the earliest stages of planetary evolution. Many of these planets likely passed through magma ocean phases, and in sub-Neptunes such conditions may persist for long periods of time. Under these extreme conditions, interiors and atmospheres are chemically coupled: they exchange material, evolve together, and can produce atmospheric compositions that differ fundamentally from those expected if the atmosphere were treated in isolation.</p>
       <p>This problem has become especially timely with the rise of JWST, which is now beginning to place meaningful constraints on the atmospheres of super-Earths and sub-Neptunes. A central question is how to interpret those observations physically: what atmospheric compositions are set by formation, what is reshaped by interaction with the interior, and what this tells us about the origin and evolution of these planets.</p>
       <p>To address this, I combine thermodynamics, planetary formation theory, and atmospheric modeling. My goal is to build physically grounded models that connect deep interior processes to observable atmospheric properties, and thereby to understand how the chemistry of a planet reflects its history.</p>
@@ -51,7 +51,7 @@ redirect_from:
       <div>
         <h3>University of California, Los Angeles</h3>
         <p>PhD in Planetary Science</p>
-        <p>Advisors: Prof. Edward D. Young &amp; Prof. Hilke E. Schlichting</p>
+        <p>Advisors: Prof. Edward D. Young</p>
       </div>
     </div>
     <div class="home-timeline__item">
