@@ -43,7 +43,7 @@ redirect_from:
   </aside>
 </section>
 
-<section class="home-section home-section--narrow home-anchor-section">
+<section id="education" class="home-section home-section--narrow home-anchor-section">
   <h2>Education</h2>
   <div class="home-timeline">
     <div class="home-timeline__item">
