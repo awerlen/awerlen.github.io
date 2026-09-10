@@ -51,7 +51,7 @@ redirect_from:
       <div>
         <h3>University of California, Los Angeles</h3>
         <p>PhD in Planetary Science</p>
-        <p>Advisors: Prof. Edward D. Young</p>
+        <p>Advisor: Prof. Edward D. Young</p>
       </div>
     </div>
     <div class="home-timeline__item">
