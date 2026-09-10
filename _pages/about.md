@@ -86,7 +86,7 @@ redirect_from:
     {% for pub in publications_sorted reversed %}
       {% if pub.first_author == true and pub.preprint != true %}
         <div class="pub-entry">
-          {% if pub.doi %}<a class="pub-entry__link" href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener noreferrer"><span class="pub-entry__citation">{{ pub.authors }} ({{ pub.date | date: "%Y" }}) {{ pub.title }}.{% if pub.journal %} <em>{{ pub.journal }}</em>.{% endif %}{% if pub.volume %}{{ pub.volume }}.{% endif %}{% if pub.page %} {{ pub.page }}.{% endif %}</span></a>{% else %}<span class="pub-entry__citation">{{ pub.authors }} ({{ pub.date | date: "%Y" }}) {{ pub.title }}.{% if pub.journal %} <em>{{ pub.journal }}</em>.{% endif %}{% if pub.volume %} {{ pub.volume }}.{% endif %}{% if pub.page %} {{ pub.page }}.{% endif %}</span>{% endif %}
+          {% if pub.doi %}<a class="pub-entry__link" href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener noreferrer"><span class="pub-entry__citation">{{ pub.authors }} ({{ pub.date | date: "%Y" }}) <span class="pub-entry__title">{{ pub.title }}</span>.{% if pub.journal %} <em>{{ pub.journal }}</em>.{% endif %}{% if pub.volume %} {{ pub.volume }}.{% endif %}{% if pub.page %} {{ pub.page }}.{% endif %}</span></a>{% else %}<span class="pub-entry__citation">{{ pub.authors }} ({{ pub.date | date: "%Y" }}) <span class="pub-entry__title">{{ pub.title }}</span>.{% if pub.journal %} <em>{{ pub.journal }}</em>.{% endif %}{% if pub.volume %} {{ pub.volume }}.{% endif %}{% if pub.page %} {{ pub.page }}.{% endif %}</span>{% endif %}
         </div>
       {% endif %}
     {% endfor %}
@@ -97,7 +97,7 @@ redirect_from:
     {% for pub in publications_sorted reversed %}
       {% if pub.first_author != true and pub.preprint != true %}
         <div class="pub-entry">
-          {% if pub.doi %}<a class="pub-entry__link" href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener noreferrer"><span class="pub-entry__citation">{{ pub.authors }} ({{ pub.date | date: "%Y" }}) {{ pub.title }}.{% if pub.journal %} <em>{{ pub.journal }}</em>.{% endif %}{% if pub.volume %} {{ pub.volume }}.{% endif %}{% if pub.page %} {{ pub.page }}.{% endif %}</span></a>{% else %}<span class="pub-entry__citation">{{ pub.authors }} ({{ pub.date | date: "%Y" }}) {{ pub.title }}.{% if pub.journal %} <em>{{ pub.journal }}</em>.{% endif %}{% if pub.volume %} {{ pub.volume }}.{% endif %}{% if pub.page %} {{ pub.page }}.{% endif %}</span>{% endif %}
+          {% if pub.doi %}<a class="pub-entry__link" href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener noreferrer"><span class="pub-entry__citation">{{ pub.authors }} ({{ pub.date | date: "%Y" }}) <span class="pub-entry__title">{{ pub.title }}</span>.{% if pub.journal %} <em>{{ pub.journal }}</em>.{% endif %}{% if pub.volume %} {{ pub.volume }}.{% endif %}{% if pub.page %} {{ pub.page }}.{% endif %}</span></a>{% else %}<span class="pub-entry__citation">{{ pub.authors }} ({{ pub.date | date: "%Y" }}) <span class="pub-entry__title">{{ pub.title }}</span>.{% if pub.journal %} <em>{{ pub.journal }}</em>.{% endif %}{% if pub.volume %} {{ pub.volume }}.{% endif %}{% if pub.page %} {{ pub.page }}.{% endif %}</span>{% endif %}
         </div>
       {% endif %}
     {% endfor %}
@@ -108,7 +108,7 @@ redirect_from:
     {% for pub in publications_sorted reversed %}
       {% if pub.preprint == true %}
         <div class="pub-entry">
-          {% if pub.doi %}<a class="pub-entry__link" href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener noreferrer"><span class="pub-entry__citation">{{ pub.authors }} ({{ pub.date | date: "%Y" }}) {{ pub.title }}.{% if pub.journal %} <em>{{ pub.journal }}</em>.{% endif %}{% if pub.volume %} {{ pub.volume }}.{% endif %}{% if pub.page %} {{ pub.page }}.{% endif %}</span></a>{% else %}<span class="pub-entry__citation">{{ pub.authors }} ({{ pub.date | date: "%Y" }}) {{ pub.title }}.{% if pub.journal %} <em>{{ pub.journal }}</em>.{% endif %}{% if pub.volume %} {{ pub.volume }}.{% endif %}{% if pub.page %} {{ pub.page }}.{% endif %}</span>{% endif %}
+          {% if pub.doi %}<a class="pub-entry__link" href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener noreferrer"><span class="pub-entry__citation">{{ pub.authors }} ({{ pub.date | date: "%Y" }}) <span class="pub-entry__title">{{ pub.title }}</span>.{% if pub.journal %} <em>{{ pub.journal }}</em>.{% endif %}{% if pub.volume %} {{ pub.volume }}.{% endif %}{% if pub.page %} {{ pub.page }}.{% endif %}</span></a>{% else %}<span class="pub-entry__citation">{{ pub.authors }} ({{ pub.date | date: "%Y" }}) <span class="pub-entry__title">{{ pub.title }}</span>.{% if pub.journal %} <em>{{ pub.journal }}</em>.{% endif %}{% if pub.volume %} {{ pub.volume }}.{% endif %}{% if pub.page %} {{ pub.page }}.{% endif %}</span>{% endif %}
         </div>
       {% endif %}
     {% endfor %}
