@@ -34,6 +34,10 @@ redirect_from:
           <img src="{{ '/assets/images/nasa_ads_2.svg' | relative_url }}" alt="">
           <span class="sr-only">NASA ADS</span>
         </a>
+        <a class="home-social-link" href="{{ site.author.googlescholar | escape }}" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar profile" title="Google Scholar">
+          <i class="ai ai-google-scholar" aria-hidden="true"></i>
+          <span class="sr-only">Google Scholar</span>
+        </a>
         <a class="home-social-link" href="https://www.linkedin.com/in/aaron-werlen" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" title="LinkedIn">
           <i class="fab fa-linkedin-in" aria-hidden="true"></i>
           <span class="sr-only">LinkedIn</span>
