@@ -1,7 +1,7 @@
 ---
 title: "A New Global Chemical Equilibrium Code: Refractory Element Signatures in Super-Earths and Sub-Neptunes"
 collection: publications
-date: 2026-05-08
+date: 2026-10-30
 first_author: false
 preprint: false
 authors: "Grimm S. L., Steinmeyer M.-L., Werlen A., Dorn C., Schlichting H. E., & Young E. D."
